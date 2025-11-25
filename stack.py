@@ -49,5 +49,20 @@ class Stack:
         
         else:
             return self.top.value
-        
 
+if __name__ == "__main__":
+    # simple main to demonstrate Stack usage
+    s = Stack(10)
+    s.push(20)
+    s.push(30)
+
+    print("Stack contents:")
+    s.print_stack()
+
+    print("Peek:", s.peek())
+
+    popped = s.pop()
+    print("Popped:", popped.value if popped else None)
+
+    print("After pop:")
+    s.print_stack() 
