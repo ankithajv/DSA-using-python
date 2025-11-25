@@ -174,7 +174,7 @@ my_linked_list.append(20)
 my_linked_list.append(30)
 my_linked_list.append(40)
 my_linked_list.prepend(100)
-my_linked_list.display() #return the address like <__main__.LinkedList object at 0x0000014396E3BBF0>
+my_linked_list.display()
 my_linked_list.pop()
 my_linked_list.display()
 my_linked_list.pop_first()
